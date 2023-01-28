@@ -1,0 +1,87 @@
+body {
+    background-color: pink;
+}
+
+#quote {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 6em;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a:hover {
+    color: black;
+}
+
+.blank_box{
+    display: block;
+    height: 1.5em;
+}
+
+#pres_nelson{
+    display: block;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.number_list{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 2em;
+    text-align: left;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+#quote_2 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 10.5em;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+p {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0auto;
+    width: 300px;
+}
