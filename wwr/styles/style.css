@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Rowdies:wght@300&display=swap');
+
+:root{
+    font-size: 22px;
+}
 body div{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,18 +12,28 @@ nav a{
     text-align: center;
     text-decoration: none;
     color: green;
-    margin-right: 10px;
+    margin: 35px;
+    font: Roboto, Helvetica, sans-serif;
 }
 
 nav a:hover{
     background-color:royalblue;
     color: black;
+    font: Roboto, Helvetica, sans-serif;
 }
 
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1{
     text-align: center;
     width: 100%;
     max-width: 1600px;
+    font-family: Rowdies, Helvetica, sans-serif;
+}
+
+#hero-msg h4{
+    text-align: center;
+    width: 100%;
+    max-width: 1600px;
+    font: Roboto, Helvetica, sans-serif;
 }
 
 #hero{
@@ -27,12 +42,22 @@ nav a:hover{
     background-color: tan;
 }
 
+#hero img{
+    width: 100%;
+}
+
 .button-box{
     text-align: center;
 }
 
 main section{
     text-align: center;
+    font-family: Rowdies, Helvetica, sans-serif;
+}
+
+main section p{
+    text-align: center;
+    font: Roboto, Helvetica, sans-serif;
 }
 
 #background {
@@ -41,6 +66,12 @@ main section{
 
 body{
     background-color:tan;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
@@ -51,41 +82,57 @@ header{
     background-color:tan;
     text-decoration: none;
     color: green;
+    font-size: 18px;
+    margin: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color:royalblue;
     color: black;
+    font-size: 18px;
 }
 
 .msg{
     background-color:tan;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color:tan;
+    font: Roboto, Helvetica, sans-serif;
+    padding: 25px 50px;
 }
 
 footer a{
     color: grey;
     text-decoration: none;
+    font: Roboto, Helvetica, sans-serif;
+    margin-top: 200px;
 }
 
 footer a:hover{
     background-color:royalblue;
     color: black;
+    font: Roboto, Helvetica, sans-serif;
 }
 
 footer p{
     font-size: 1.2em;
+    font: Roboto, Helvetica, sans-serif;
 }
 
 footer p a:hover{
 text-decoration: underline;
+font: Roboto, Helvetica, sans-serif;
 }
 
 .home-title{
     color: grey;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -98,12 +145,39 @@ h4{
 
 .msg p{
     color: grey;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo {
+    padding-top: 5px;
+}
+
 .icon{
-    width: 80px;  
+    width: 80px;
+    padding-top: 10px;  
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin-top: 50px;
+}
+
+.mountains {
+    margin-top: 50px;
+}
+
+.card-img {
+    border: 10px black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
