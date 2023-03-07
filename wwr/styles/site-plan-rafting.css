@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #3185FC   ;
-  --secondary-color: #FF7D00 ;
-  --accent1-color: #730071;
-  --accent2-color: #218380;
+  --primary-color: tan;
+  --secondary-color: darkslategray;
+  --accent1-color: goldenrod;
+  --accent2-color: whitesmoke;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Rowdies;
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #3185FC;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #3185FC; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #3185FC  ;
-  --nav-link-color: #FF7D00;
-  --nav-background-color: #730071;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #3185FC;
+  --headline-color-on-white: grey;  /* headlines on a white background */ 
+  --headline-color-on-color: grey; /* headlines on a colored background */ 
+  --paragraph-color-on-white: grey; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: grey; /* paragraph text on a colored background */ 
+  --paragraph-background-color: tan  ;
+  --nav-link-color: goldenrod;
+  --nav-background-color: darkslategray;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: royalblue;
 }
 
 
@@ -36,6 +36,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: tan;
 }
 
 img {
@@ -80,7 +81,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: tan;
 }
 .colors td{
   width: 25%;

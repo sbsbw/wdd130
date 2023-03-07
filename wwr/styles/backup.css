@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Rowdies:wght@300&display=swap');
 
+/*
+Font options 1:    font-family: Rowdies, Helvetica, sans-serif;
+Font options 2:    font-family: Roboto, Helvetica, sans-serif;
+*/
+
 :root{
     font-size: 22px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 nav {
@@ -26,103 +46,137 @@ nav a:hover{
     font: Roboto, Helvetica, sans-serif;
 }
 
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-}
-
-#hero-msg h1{
-    text-align: center;
-    width: 100%;
-    max-width: 1600px;
-    font-family: Rowdies, Helvetica, sans-serif;
-}
-
-#hero-msg h4 {
-    text-align: center;
-    width: 100%;
-    max-width: 1600px;
-    font: Roboto, Helvetica, sans-serif;
-    color: whitesmoke;
-}
-
-#hero{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-
-#hero img{
-    width: 100%;
-}
-
-.button-box{
-    text-align: center;
-}
-
-main{
-display: grid;
-grid-template-columns: repeat(10, 1fr);
-}
-
-main section{
-    text-align: center;
-    font-family: Rowdies, Helvetica, sans-serif;
-}
-
-main section p{
-    text-align: center;
-    font: Roboto, Helvetica, sans-serif;
-}
-
 body{
     background-color:tan;
     padding: 0;
     margin: 0;
 }
 
-h2{
-    margin: 0;
+#title {
+    text-align: center;
+    width: 100%;
+    font-family: Rowdies, Helvetica, sans-serif;
 }
 
-header{
+#box{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 30px 1fr 1fr 30px 1fr 1fr 30px 1fr 1fr 30px;
 }
 
-.join{
-    text-decoration: none;
-    color: darkgreen;
-    font-size: 25px;
-    font-weight: bolder;
-    margin: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.book{
-    text-decoration: none;
-    color: goldenrod;
-    font-size: 25px;
-    font-weight: bolder;
-    margin: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
+#box-seperator-1 {
+    grid-column: 1/9;
+    grid-row: 6/7;
+    width: 90%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: darkslategray;
+    margin: 10 px;
 }
 
-.book:hover, .join:hover{
-    background-color:royalblue;
-    color: black;
-    font-size: 25px;
-    font-weight: bolder;
+#main-salmon-name {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    font-family: Rowdies, Helvetica, sans-serif;
+    background-color: darkslategray;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+
+#main-salmon-image {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    
+}
+
+#main-salmon-description {
+    padding: 20px;
+    grid-row: 3/4;
+}
+
+#box-seperator-2 {
+    grid-column: 1/9;
+    grid-row: 4/5;
+    justify-self: center;
+    width: 90%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: darkslategray;
+    margin: 10 px;
+}
+
+#desolate-canyon-name {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    justify-self: center;
+    font-family: Rowdies, Helvetica, sans-serif;
+    background-color: darkslategray;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#desolate-canyon-image {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    grid-column: 2/4;
+    grid-row: 5/6;
+    
+}
+
+#desolate-canyon-description {
+    padding: 20px;
+    grid-row: 3/4;
+}
+
+#box-seperator-3 {
+    grid-column: 1/9;
+    grid-row: 7/8;
+    justify-self: center;
+    width: 90%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: darkslategray;
+    margin: 10 px;
+}
+
+#grand-canyon-name {
+    grid-column: 3/4;
+    grid-row: 8/9;
+    justify-self: center;
+    font-family: Rowdies, Helvetica, sans-serif;
+    background-color: darkslategray;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#grand-canyon-image {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 8/9;
+    
+}
+
+#grand-canyon-description {
+    padding: 20px;
+    grid-row: 9/10;
+}
+
+#box-seperator-4 {
+    grid-column: 1/9;
+    grid-row: 10/11;
+    justify-self: center;
+    width: 90%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: darkslategray;
+    margin: 10 px;
+}
+
+/*
 
 .msg{
     background-color:tan;
@@ -182,15 +236,6 @@ h4{
     padding-bottom: 15px;
 }
 
-.logo {
-    width: 80px;
-}
-
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
 
 .icon{
     width: 80px;
@@ -240,7 +285,7 @@ footer .social img{
 main section img {
     box-sizing: border-box;
 }
-
+*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
